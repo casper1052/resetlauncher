@@ -13,7 +13,12 @@
 		<link type="image/png" rel="shortcut icon" href="favicon.png" id="favicon"/>
 		<script>
 			function remove_poipup_unique_id_404093658(){
+				try{
 				document.getElementById("gg-privacy-banner").remove()
+				}
+				catch(f){
+					
+				}
 				//GET LOST
 			}
 			window.setInterval(remove_poipup_unique_id_404093658, 1)
